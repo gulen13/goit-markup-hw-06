@@ -766,6 +766,7 @@ cursor: pointer;
 }
 .modal-form-checkbox {
   align-self: center;
+  appearance: none;
   width: 16px;
   height: 15px;
   border: 2px solid var(--main-text-color);
