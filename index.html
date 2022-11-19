@@ -573,6 +573,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <strong class="footer-form-strong">Підпишіться на розсилку</strong>
+          <div class="footer-form-wrapper">
+            <label class="footer-form-label" for="user_mail"></label>
+            <input
+              class="footer-form-field"
+              type="email"
+              name="user_mail"
+              id="user_mail"
+              required
+              placeholder="E-mail"
+            />
+            <button class="footer-btn" type="submit">
+              Підписатися
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
@@ -595,7 +615,6 @@
                 type="text"
                 name="user_name"
                 id="user_name"
-                minlength="3"
                 required
                 placeholder=" "
               />
@@ -610,7 +629,6 @@
                 type="tel"
                 name="user_phone"
                 id="user_phone"
-                minlength="13"
                 required
                 placeholder=" "
               />
@@ -625,7 +643,6 @@
                 type="email"
                 name="user_mail"
                 id="user_mail"
-                minlength="5"
                 required
                 placeholder=" "
               />
