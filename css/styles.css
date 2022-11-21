@@ -506,7 +506,6 @@ header {
   display: flex;
   align-items: baseline;
   gap: 70px;
-  justify-content: space-between;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -578,6 +577,9 @@ header {
   background-color: var(--main-logo-button-color);
 }
 /* Footer form */
+.footer-form {
+  margin-left: auto;
+}
 .footer-form-strong {
   display: block;
   font-weight: 700;
@@ -596,10 +598,11 @@ header {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  drop-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 15px;
   background-color: var(--main-background-color);
+  color: var(--secondary-text-color);
 }
 .footer-btn {
   width: 200px;
